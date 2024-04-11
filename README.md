@@ -29,7 +29,8 @@ Placeholder
 This project was created with the help of:
 * The _Chat GPT_ AI developed by __Open AI__.
 * The _Xpert Learning Assistant_ AI developed by __edX__.
-* The starter code from the [fantastic-umbrella](https://github.com/coding-boot-camp/fantastic-umbrella) repository by [Xander Rapstine](https://github.com/Xandromus), [Georgeyoo](https://github.com/Georgeyoo) and [rxtATX](https://github.com/rxtATX).
+* The [Thomas-Object-Relational-Mapping-ORM-E-Commerce-Back-End](https://github.com/ThomasCalle/Thomas-Object-Relational-Mapping-ORM-E-Commerce-Back-End) repository by [Thomas Calle](https://github.com/ThomasCalle).
+
 
 ## License
 
