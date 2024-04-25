@@ -1,5 +1,4 @@
 const { Model, DataTypes } = require("sequelize");
-
 const sequelize = require("../config/connection.js");
 
 class Category extends Model {}
@@ -16,6 +15,7 @@ Category.init(
     // 'category_name' column
     category_name: {
       type: DataTypes.STRING,        
+      allowNull: false,  // allowNull constraint
     },
   },
   {
@@ -28,4 +28,5 @@ Category.init(
 );
 
 module.exports = Category;
+
 

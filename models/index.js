@@ -1,3 +1,5 @@
+const sequelize = require('../config/connection');
+
 // import models
 const Product = require('./Product');
 const Category = require('./Category');
@@ -26,9 +28,11 @@ Tag.belongsToMany(Product, {
   foreignKey: 'tag_id', // The foreign key in the Tag model
 });
 
+// Export the models
 module.exports = {
   Product,
   Category,
   Tag,
   ProductTag,
 };
+

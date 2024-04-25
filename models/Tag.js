@@ -1,12 +1,10 @@
 const { Model, DataTypes } = require('sequelize');
-
 const sequelize = require('../config/connection.js');
 
 class Tag extends Model {}
 
 Tag.init(
   {
-    // TODO Define columns for the tag table
     id: {
       type: DataTypes.INTEGER,    
       allowNull: false,           
@@ -15,6 +13,7 @@ Tag.init(
     },
     tag_name: {
       type: DataTypes.STRING,     
+      allowNull: false,  // constraint to disallow null values
     },
   },
   {
@@ -27,3 +26,4 @@ Tag.init(
 );
 
 module.exports = Tag;
+
